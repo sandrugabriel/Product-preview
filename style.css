@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #F3EAE3;
+}
+
+img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-container{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.info-container{
+    padding: 10px 20px
+}
+
+.p-info{
+    color: gray;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.price{
+    color:#3D8168;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.old-price{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.btnAdd{
+    background-color: #3D8168;
+    padding: 10px 30px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.btnAdd:hover{
+    background-color: #1f5b45;
+}
+
+@media (min-width:1000px) {
+    
+    body{
+        padding: 150px 450px;
+    }
+
+    img{
+        background-image: url('image-product-desktop.jpg');
+        width: 50%;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+
+    }
+
+}
